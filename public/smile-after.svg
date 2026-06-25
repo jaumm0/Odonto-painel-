@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1a3f"/>
+      <stop offset="1" stop-color="#060f28"/>
+    </linearGradient>
+    <linearGradient id="lip2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b56a5c"/>
+      <stop offset="1" stop-color="#9a4f44"/>
+    </linearGradient>
+    <linearGradient id="toothB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef0f4"/>
+    </linearGradient>
+    <radialGradient id="gum2" cx="0.5" cy="0" r="1">
+      <stop offset="0" stop-color="#c0645f"/>
+      <stop offset="1" stop-color="#a04a44"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg2)"/>
+
+  <!-- lips -->
+  <path d="M120 300 C 200 180, 600 180, 680 300 C 640 470, 160 470, 120 300 Z" fill="url(#lip2)" opacity="0.9"/>
+  <path d="M160 305 C 230 235, 570 235, 640 305 C 610 430, 190 430, 160 305 Z" fill="#6b2d27"/>
+  <path d="M180 300 C 250 250, 550 250, 620 300 C 620 308, 180 308, 180 300 Z" fill="url(#gum2)" opacity="0.85"/>
+
+  <!-- teeth: AFTER — bright white, uniform, aligned -->
+  <g>
+    <rect x="196" y="300" width="56" height="84" rx="12" fill="url(#toothB)"/>
+    <rect x="256" y="300" width="56" height="86" rx="12" fill="url(#toothB)"/>
+    <rect x="316" y="300" width="56" height="88" rx="12" fill="url(#toothB)"/>
+    <rect x="376" y="300" width="56" height="88" rx="12" fill="url(#toothB)"/>
+    <rect x="436" y="300" width="56" height="86" rx="12" fill="url(#toothB)"/>
+    <rect x="496" y="300" width="56" height="84" rx="12" fill="url(#toothB)"/>
+    <rect x="556" y="302" width="48" height="80" rx="12" fill="url(#toothB)"/>
+    <!-- subtle shine on centrals -->
+    <rect x="316" y="305" width="56" height="40" rx="12" fill="url(#shine)"/>
+    <rect x="376" y="305" width="56" height="40" rx="12" fill="url(#shine)"/>
+  </g>
+
+  <!-- lower teeth -->
+  <g opacity="0.7">
+    <rect x="210" y="392" width="46" height="34" rx="8" fill="url(#toothB)"/>
+    <rect x="262" y="392" width="48" height="34" rx="8" fill="url(#toothB)"/>
+    <rect x="316" y="392" width="48" height="34" rx="8" fill="url(#toothB)"/>
+    <rect x="370" y="392" width="48" height="34" rx="8" fill="url(#toothB)"/>
+    <rect x="424" y="392" width="48" height="34" rx="8" fill="url(#toothB)"/>
+    <rect x="478" y="392" width="48" height="34" rx="8" fill="url(#toothB)"/>
+    <rect x="532" y="392" width="46" height="34" rx="8" fill="url(#toothB)"/>
+  </g>
+
+  <text x="40" y="560" font-family="Georgia, serif" font-size="22" fill="#c9a878" letter-spacing="6">DEPOIS</text>
+</svg>
